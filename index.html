@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Scripting</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        #VSCanvasContainer {
+            padding: 0;
+            object-fit: cover;
+            overflow: hidden;
+            height: 90vh;
+            width: 90vw;
+            border: 5px red solid;
+        }
+        .VSCanvas {
+            height: 500%;
+            width: 500%;
+            background-image: url('./background.png');
+        }
+
+        path {
+            fill:none;
+            stroke:red;
+            stroke-width:5px;
+        }
+    </style>
+    <link rel="stylesheet" href="node.css">
+</head>
+<body>
+
+    <button onclick="ExecuteGraph(vScripting.getGraph())">Execute</button>
+    <button onclick="console.log(ProcessGraph(vScripting.getGraph()))">printGraph</button>
+
+    <h1>Nodes : </h1>
+    <button onclick="CurrentNode = 'Prompt'">
+        Prompt
+    </button>
+    <button onclick="CurrentNode = 'Alert'">
+        Alert
+    </button>
+    <button onclick="CurrentNode = 'Add'">
+        Add
+    </button>
+    <button onclick="CurrentNode = 'IfElse'">
+        IfElse
+    </button>
+
+    <div style="padding: 5px; background: steelblue; border-radius: 6px; display: none; position: absolute; top:0;left:0; z-index: 99999999;" id="DefaultSelectorContainer">
+        <input type="text" name="DefaultSelector" id="DefaultSelector" value="" oninput="changeDefault()"><button onclick="resetToDefault()">reset</button>
+    </div>
+
+    <div class="VSSelector"></div>
+
+    <div id="VSCanvasContainer">
+    </div>
+
+
+</body>
+<script src="./VisualScripting.js"></script>
+<script src="./index.js"></script>
+</html>
