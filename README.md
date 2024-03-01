@@ -21,7 +21,7 @@ git clone https://github.com/RaphaelNJ/VisualScripting.git
 
 Le suivant est une présentation du fonctionnement et de l'utilisation de ce logiciel en l'état: 
 
-https://github.com/RaphaelNJ/VisualScripting.js/assets/52333330/d2ce59a6-e294-40bc-b4ef-e56fcfbca17c
+https://github.com/RaphaelNJ/VisualScripting.js/assets/52333330/b8027943-e08a-4215-b9bd-185100055e05
 
 ## Limitations
 
