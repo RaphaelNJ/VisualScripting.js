@@ -3,9 +3,7 @@
 
 ## Description
 
-Ce projet est une alternative à Scratch qui offre une interface inspirée du blueprint d'Unreal Engine. Il a été entrepris car je trouve que Scratch utilise une approche peu ergonomique. De plus Scratch est interprété alors que ce projet converti d'abord le code en javascript avant d'executer quoi que ce soit, offrant une bien meilleure vitesse. L'objectif était donc de créer un langage de programmation visuel personnalisé en s'inspirant de Blueprint (ou Blot, pour Unity), que je considère personnellement comme plus ergonomique.
-
-Ce projet permet de créer des programmes simples dans un langage de programmation visuel, puis de les compiler en JavaScript. Contrairement à Scratch, qui n'est pas compilé et donc plus lent. Il est également possible de modifier le compilateur pour en faire un langage spécialisé dans la création de jeux vidéo (comme Scratch), dans l'automatisation (comme Node Red ou Tasker) et bien plus encore.
+Ce projet est une alternative à Scratch qui offre une interface inspirée du blueprint d'Unreal Engine. Il a été entrepris car je trouve que Scratch utilise une approche peu ergonomique. De plus Scratch est interprété alors que ce projet converti d'abord le code en javascript avant l'executer, offrant une bien meilleure vitesse d'execution. L'objectif était donc de créer un langage de programmation visuel personnalisé en s'inspirant de Blueprint (ou Blot, pour Unity), que je considère personnellement comme plus ergonomique. Il est également possible de modifier le compilateur pour en faire un langage spécialisé dans la création de jeux vidéo (comme Scratch), dans l'automatisation (comme Node Red ou Tasker) et bien plus encore.
 
 ## Installation
 
